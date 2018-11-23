@@ -77,7 +77,7 @@ if you attempt to `@include` a view which does not exist, Laravel will throw an 
 
 
 
-##3. Components & Slots
+## 3. Components & Slots
 
 **The `{{ $slot }}` variable will contain the content we wish to inject into the component**
 
@@ -171,7 +171,7 @@ display the contents of the `name` :
 Hello, {{ $name }}.
 ```
 
-###7.2. Display with {!! $variable  !!}
+### 7.2. Display with {!! $variable  !!}
 
 If you pass data from your Controller to a View with some HTML styling like:
 
@@ -189,7 +189,7 @@ But if it is accessed with `{!! $first !!}` then the output'll be:
 
 **Narendra Sisodia**
 
-###7.3 Display with @{{ variable }}
+### 7.3 Display with @{{ variable }}
 
 Render a string `$name -> type`
 
@@ -199,7 +199,7 @@ Render a string `$name -> type`
 Hello, @{{ $name -> type }}.
 ```
 
-###7.4. Rendering JSON
+### 7.4. Rendering JSON
 
 Pass variables``$array`` in PHP environment to the JS  environment.
 
@@ -223,7 +223,7 @@ ShortHand:
 
 ## 8. Logic
 
-###8.1. If Statements
+### 8.1. If Statements
 
 **There are @if, @unless, @isset, @empty**
 
@@ -275,7 +275,7 @@ How to use:
   @endif
   ```
 
-###8.2. Switch Statements 
+### 8.2. Switch Statements 
 
 ```
 @switch($i)
